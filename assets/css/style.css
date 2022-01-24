@@ -11,7 +11,7 @@ main {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
     gap: 2%;
-    justify-content stretch; 
+    justify-content: stretch; 
 }
 
 img:hover {

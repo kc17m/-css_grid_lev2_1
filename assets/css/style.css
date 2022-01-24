@@ -6,11 +6,11 @@
 
 
 main {
-    margin: 10%;
+    margin: 14%;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(3, auto);
-    gap: 2%;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 30%);
+    gap: 4%;
     justify-content: stretch; 
 }
 

@@ -8,8 +8,8 @@
 main {
     margin: 14%;
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(3, 30%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 4%;
     justify-content: stretch; 
 }
@@ -38,5 +38,38 @@ article:hover > div {
     
 }
 
+@media screen and (max-width: 576px) {
+    main {
+        
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        gap: 1%;
+        justify-content: stretch; 
+    }
 
+    div { 
+        
+        font-weight: 900;
+        font-size: 1rem;       
+        right: 50%;
+           
+    }
+    
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    main {        
+        grid-template-columns: repeat(2, 1fr);        
+        gap: 4%;
+        justify-content: stretch; 
+    }
+
+    div {         
+        font-weight: 900;
+        font-size: 1.2rem;       
+        right: 20%;
+           
+    }
 
